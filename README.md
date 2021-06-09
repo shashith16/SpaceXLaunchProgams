@@ -1,70 +1,84 @@
-# Getting Started with Create React App
+![image](https://user-images.githubusercontent.com/78695003/121380201-4ebe3b80-c962-11eb-9369-e79dd1ccf58c.png)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![image](https://user-images.githubusercontent.com/78695003/121380748-c5f3cf80-c962-11eb-82aa-91c9397171b0.png)
 
-## Available Scripts
+![image](https://user-images.githubusercontent.com/78695003/121381085-07847a80-c963-11eb-81cf-ff04714ce7f7.png)
 
-In the project directory, you can run:
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+#Getting Started with Create React App like:  
 
-### `npm test`
+  npx create-react-app spacex-launch
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Project Description: 
 
-### `npm run build`
+  This front-end application which would help users list and browse all launches by SpaceX program.
+  
+#Technologies:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+    Project developed with mainly :
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+           React hooks
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+           Redux
 
-### `npm run eject`
+           Redux Thunk
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+           axios
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+           bootstrap
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+           redux devetools
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+    
+    
+ #Installations: 
+ 
+    Installed all required node modules.
+    
+     "axios": 0.21.1,
+    "bootstrap": "^5.0.1",
+    "font-awesome": "^4.7.0",
+    "history": "^5.0.0",
+    "query-string": "^7.0.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-redux": "^7.2.4",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.3",
+    "redux": "^4.1.0",
+    "redux-devtools-extension": "^2.13.9",
+    "redux-thunk": "^2.3.0",
+    "reselect": "^4.0.0",
+    "sass": "^1.34.1"
+    
+    
+    
+ Components :
+  
+  Created the reusable components are:
+    
+    Filters:
+      
+      In this component showing all filters(launch years, successful Launch && Successful Landing).
+      When clicking on filters showing filters also in UI, active the filters.
+      
+    LaunchContent:
+      
+       In this component showing all Launches data and filtered the launches info when filters applied.
+      
+    
+    Home: 
+      
+    Footer
+    
+ #In Git hub available
+   
+   https://github.com/shashith16/SpaceXLaunchProgams/tree/master
+   
+   
+#Demo here
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+   https://mysterious-ridge-32386.herokuapp.com/
+   
